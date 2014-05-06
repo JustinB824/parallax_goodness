@@ -1,3 +1,106 @@
 body {
-	background: #f6f6f6;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: fantasy;
 }
+
+.center {
+	margin: 0 auto;
+}
+
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+	padding: 5px 10px 0;
+}
+
+section {
+	text-align: center;
+}
+
+#frame1 {
+	background: url('../images/walkway.jpg') 0 no-repeat fixed;
+	background-size: cover;
+	height: 600px;
+	margin: 0;
+	
+	div {
+		display: inline-block;
+		margin: 280px 0 0;
+	}
+}
+
+#frame2 {
+	background: #F6F6F6;
+	height: 300px;
+	margin: 0;
+	overflow: hidden;
+	
+	div {
+		display: inline-block;
+		margin: 180px 0 0;
+	}
+}
+
+#frame3 {
+	background: url('../images/volleyball.jpg') 0 no-repeat fixed;
+	background-size: cover;
+	height: 600px;
+	margin: 0;
+	
+	div {
+		display: inline-block;
+		margin: 280px 0 0;
+	}
+}
+
+#frame4 {
+	background: #F6F6F6;
+	height: 300px;
+	margin: 0;
+	overflow: hidden;
+	
+	div {
+		display: inline-block;
+		margin: 180px 0 0;
+	}
+}
+
+#frame5 {
+	background: url('../images/sunset.jpg') 0 no-repeat fixed;
+	background-size: cover;
+	height: 600px;
+	margin: 0;
+	
+	div {
+		display: inline-block;
+		margin: 280px 0 0;
+	}
+}
+
+#frame6 {
+	background: #F6F6F6;
+	height: 300px;
+	margin: 0;
+	overflow: hidden;
+	
+	div {
+		display: inline-block;
+		margin: 180px 0 0;
+	}
+}
+
+

@@ -1,4 +1,116 @@
 /* line 1, ../sass/application.scss */
 body {
-  background: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: fantasy;
+}
+
+/* line 8, ../sass/application.scss */
+.center {
+  margin: 0 auto;
+}
+
+/* line 12, ../sass/application.scss */
+.content {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 17, ../sass/application.scss */
+.clear {
+  clear: both;
+}
+
+/* line 21, ../sass/application.scss */
+header {
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  padding: 5px 10px 0;
+}
+
+/* line 30, ../sass/application.scss */
+section {
+  text-align: center;
+}
+
+/* line 34, ../sass/application.scss */
+#frame1 {
+  background: url("../images/walkway.jpg") 0 no-repeat fixed;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+}
+/* line 40, ../sass/application.scss */
+#frame1 div {
+  display: inline-block;
+  margin: 280px 0 0;
+}
+
+/* line 46, ../sass/application.scss */
+#frame2 {
+  background: #F6F6F6;
+  height: 300px;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 52, ../sass/application.scss */
+#frame2 div {
+  display: inline-block;
+  margin: 180px 0 0;
+}
+
+/* line 58, ../sass/application.scss */
+#frame3 {
+  background: url("../images/volleyball.jpg") 0 no-repeat fixed;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+}
+/* line 64, ../sass/application.scss */
+#frame3 div {
+  display: inline-block;
+  margin: 280px 0 0;
+}
+
+/* line 70, ../sass/application.scss */
+#frame4 {
+  background: #F6F6F6;
+  height: 300px;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 76, ../sass/application.scss */
+#frame4 div {
+  display: inline-block;
+  margin: 180px 0 0;
+}
+
+/* line 82, ../sass/application.scss */
+#frame5 {
+  background: url("../images/sunset.jpg") 0 no-repeat fixed;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+}
+/* line 88, ../sass/application.scss */
+#frame5 div {
+  display: inline-block;
+  margin: 280px 0 0;
+}
+
+/* line 94, ../sass/application.scss */
+#frame6 {
+  background: #F6F6F6;
+  height: 300px;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 100, ../sass/application.scss */
+#frame6 div {
+  display: inline-block;
+  margin: 180px 0 0;
 }
